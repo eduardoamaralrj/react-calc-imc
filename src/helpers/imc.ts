@@ -7,7 +7,6 @@ export type Level = {
 }
 
 export const levels: Level [] = [
-  export const levels: Level [] = [
   { title: 'Magreza', color: '#96A3AB', icon: 'down', imc: [0, 18.4] },
   { title: 'Normal', color: '#0EAD69', icon: 'up', imc: [18.5, 24.9] },
   { title: 'Sobrepeso', color: '#E2B039', icon: 'down', imc: [25, 29.9] },
