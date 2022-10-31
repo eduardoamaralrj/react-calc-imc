@@ -11,8 +11,8 @@ export const levels: Level [] = [
   { title: 'Normal', color: '#0EAD69', icon: 'up', imc: [18.5, 24.9] },
   { title: 'Sobrepeso', color: '#E2B039', icon: 'down', imc: [25, 29.9] },
   { title: 'Obesidade Grau I', color:'#C3423F', icon: 'down', imc: [30, 34.9] },
-  { title: 'Obesidade Grau II', color:'#C3423F', icon: 'down', imc: [35, 39.9] },
-  { title: 'Obesidade Grau III', color:'#C3423F', icon: 'down', imc: [40, 99] }
+  { title: 'Obesidade Grau II', color:'#C3423F', icon: 'down', imc: [35, 40] },
+  { title: 'Obesidade Grau III', color:'#C3423F', icon: 'down', imc: [40+] }
 ];
 
 export const calculateImc = (height: number, weight: number) => {
